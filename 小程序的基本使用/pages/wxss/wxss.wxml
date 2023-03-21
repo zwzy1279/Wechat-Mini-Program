@@ -1,0 +1,6 @@
+<!--pages/wxss/wxss.wxml-->
+<text>pages/wxss/wxss.wxml</text>
+<view class="user">张三</view>
+<!--引用外联样式应该在.wxss文件引入-->
+
+
