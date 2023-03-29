@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<view></view>
+<navigator open-type="navigateBack" delta="1">返回上一层</navigator><!--成功返回--><!--只针对上一层是tabBar页面的回退才有效-->

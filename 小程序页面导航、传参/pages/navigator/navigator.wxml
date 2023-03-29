@@ -1,0 +1,16 @@
+<!--pages/navigator/navigator.wxml-->
+<text>pages/navigator/navigator.wxml</text>
+<!--点击跳转到test页面-->
+<navigator url="/pages/test/test?name=zs&age=18">点我跳转到test页面</navigator><!--可以成功跳转-->
+<view>-------</view>
+<navigator url="/pages/test/test" open-type="navigate">点我跳转到test页面</navigator><!--可以成功跳转-->
+<view>-------</view>
+<navigator url="/pages/test/test" open-type="switchTab">点我跳转到test页面</navigator>
+<!--跳转不成功，因为index在这这里事非tabBar页面-->
+<view>-------</view>
+
+<!--导航到有tabBar的页面-->
+<navigator url="/pages/tabBar/tabBar">导航到有tabBar的页面</navigator><!--没有指定opten-type打不开-->
+<view>-------</view>
+<navigator url="/pages/tabBar/tabBar" open-type="switchTab" >导航到有tabBar的页面</navigator>
+<button bindtap="backswitch">点我回去switch</button>

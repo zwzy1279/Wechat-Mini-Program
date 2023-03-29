@@ -1,0 +1,7 @@
+/* pages/anli/anli.wxss */
+.num {
+  border:1rpx solid #efefef;
+  height:300rpx;
+  line-height:300rpx;
+  text-align:center;
+}

@@ -1,0 +1,14 @@
+Page({
+  //监听页面加载，一个页面只调用1次
+  onLoad:function(options){
+    console.log('111')
+  },
+  //监听页面显示
+  onShow:function(){},
+  //监听页面初次渲染完成，一个页面只调用一次
+  onReady:function(){},
+  //监听页面隐藏
+  onHide:function(){},
+  //监听页面加载，一个页面只调用一次
+  onUnload:function(){}
+})

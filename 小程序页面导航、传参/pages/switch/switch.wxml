@@ -1,0 +1,13 @@
+<!--pages/switch/switch.wxml-->
+<button bindtap="gotoindex">点我跳转到index（tabBar页面）</button>
+<button bindtap="gotonavigator">点我跳转到navigator（非tabBar页面）</button>
+<view >{{count}}</view>
+<button bindtap="handler">点我+1</button>
+<view style="width:100px;height:100px">111</view>
+<view style="width:100px;height:100px">111</view>
+<view style="width:100px;height:100px">111</view>
+<view style="width:100px;height:100px">111</view>
+<view style="width:100px;height:100px">111</view>
+<view style="width:100px;height:100px">111</view>
+
+
